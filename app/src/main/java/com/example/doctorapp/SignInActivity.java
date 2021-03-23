@@ -56,7 +56,7 @@ public class SignInActivity extends AppCompatActivity {
         if (!email.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()){
             if (!pass.isEmpty()){
                 if(mEmail.getText().toString().equals("admin@gmail.com") && mPass.getText().toString().equals("admin")){
-                    startActivity(new Intent(SignInActivity.this , ConsultationPage.class));
+                    startActivity(new Intent(SignInActivity.this , AdminDashboard.class));
                 }else {
 
                     mAuth.signInWithEmailAndPassword(email, pass)

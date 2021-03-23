@@ -14,6 +14,7 @@ public class HomeDashboard extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_dashboard);
+
         //defining cards
         CardView consultationCard = (CardView) findViewById(R.id.consultation_id);
         CardView astrologyCard = (CardView) findViewById(R.id.astrology_id);

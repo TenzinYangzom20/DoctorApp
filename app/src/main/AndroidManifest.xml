@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoctorApp">
-        <activity android:name=".ContactPage"></activity>
+        <activity android:name=".AdminDashboard" />
+        <activity android:name=".ContactPage" />
         <activity android:name=".AboutusPage" />
         <activity android:name=".AstrologyPage" />
         <activity android:name=".ConsultationPage" />
