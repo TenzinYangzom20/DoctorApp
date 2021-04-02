@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.doctorapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoctorApp">
+        <activity android:name=".DoctorDashboard"></activity>
+        <activity android:name=".RegisterDoctor" />
         <activity android:name=".AdminDashboard" />
         <activity android:name=".ContactPage" />
         <activity android:name=".AboutusPage" />

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Edittext for getting doctor Name-->
+    <EditText
+        android:id="@+id/idEdtDocName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Doctor Name"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <!--Edittext for getting doctor email-->
+    <EditText
+        android:id="@+id/idEdtDocEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Doctor Email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress" />
+
+    <!--Edittext for getting doctor specialities-->
+    <EditText
+        android:id="@+id/idEdtDocSpecialities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Doctor Specialities"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <!--Edittext for getting doctor experience-->
+
+    <EditText
+        android:id="@+id/idEdtDocExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Doctor Experience"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <!--Button for adding your course to Firebase-->
+    <Button
+        android:id="@+id/idBtnRegisterDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FBF9F9" />
+
+</LinearLayout>

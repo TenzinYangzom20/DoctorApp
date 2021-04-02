@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">DoctorApp</string>
     <string name="sign_up">Sign Up</string>
+
+    <string name="mission">Mission</string>
+    <string name="missionDes">"The main objective of Men-Tsee-Khang is to preserve, promote and practise Sowa Rigpa, the ancient Tibetan system of medicine, astronomy and astrology. It also aims to improve the health and sanitation of the refugees in particular and the public in general and to establish dispensaries in order to provide accessible health care to the people regardless of caste, creed or colour. <br />
+        <br />
+    Education and Higher Studies in the fields of Tibetan Medicine and Astrology, Research and collaboration with scholars and institutes in India and abroad between different healing systems and to produce Tibetan medicines in an environmentally sensitive manner are the important goals in the development of this ancient healing system."
+    </string>
+    <string name="LS">Legal Status</string>
+    <string name="LSDes">Men-Tsee-Khang is a charitable, cultural and educational institution of H.H. the Dalai Lama, registered under the Societies Registration Act of 1860 (No. 1290/79). The institute is initially registered as Tibetan Medical &amp; Astro Institute and then in 1995, Men-Tsee-Khang Tibetan Medical &amp; Astro Institute is incorporated. Men-Tsee-Khang is a Tibetan version of Tibetan Medical &amp; Astro Institute. Since then the institute has been widely known by its Tibetan name Men-Tsee-Khang also.<br /><br />
+    It has exemption u.s. 80G of the Income Tax Act 1961 (No.CIT/SML/2003-04/2286-18/7/03). It is registered u.s. 12-A (a) of the Indian Income Tax Act 1961 (No. Judl/Reg. Cr/81-82/I5-T/35667/2/3).<br /><br />
+    Its permanent Account Number for Income Tax is AAATM1890L. Its income tax number is 010213, Palampur (30/03/91).<br /><br />
+    Men-Tsee-Khang has acquired GSTIN no. 02AAATM1890L1ZK so as to deliver smoothly its medicine and health supplements to all its patients through various branch clinics.<br /><br /></string>
+
+    <string name="TMAI">TMAI in Exile</string>
+    <string name="TMAIDes">Historically, Men-Tsee-Khang was established in 1916 by the 13 Dalai Lama in Lhasa, Tibet. In 1959 the People\'s Republic of China invaded Tibet and His Holiness the 14th Dalai Lama fled to India followed by 80,000 Tibetans. His Holiness was given residence in Mussorie by the Indian Government and then a year later in 1960 was granted permanent residence in Dharamsala, Himachal Pradesh, India. Besides rehabilitation of the Tibetan refugees, His Holiness also started to set up religious, cultural and educational Institutes in order to preserve the rich ancient cultures and traditions of Tibet. <br /> <br />
+    Thus, His Holiness the 14th Dalai Lama re-established Men-Tsee-Khang, Tibetan Medical and Astro. Institute in Dharamsala on 23 March, 1961. The Institute initially started with a doctor and an astrologer with ten students in two separate campuses in Dharamsala called Chopra House and Gleenmore Cottage. Dr. Yeshi Dhonden and Ven. Dukhorwa Lodoe Gyatso were the forerunners of Medicine and Astrology Schools. In 1967, the two schools were merged together as Men-Tsee-Khang, Tibetan Medical &amp; Astro. Institute in Mcleod Ganj and shifted to the present location in 1982 where the Headquarter of the institutes operates. <br /><br />
+    At present Men-Tsee-Khang is a full-fledged Institute with a work force of 673<br /><br /></string>
+    <string name="TMAIDes2">The Headquarter in Dharamsala works through several departments with their own activity of academic as well as administrative in nature.  The Academic field of activity includes, Men-Tsee-Khang College, Pharmacy Department, Astro-Science Department, Research &amp; Development Department, Materia Medica Department, Documentation &amp; Publication Department, Herbal Product Research department, Body, Mind and Life Department and China Desk.  The Administrative fields of activity included Main Office, Accounts, Branch Clinics Management, Human Capital Department, Incense Department Salugara, Internal Auditor, Medicine Store and Sales, Men-Tsee-Khang Exports.</string>
+    <string name="TMAIDes3">The Institute has 58 branch medical clinics and 3 Wellness Centre.<br /><br /><br /><br /></string>
+
 </resources>

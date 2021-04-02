@@ -1,4 +1,4 @@
-package com.example.doctorapp;
+ package com.example.doctorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -32,7 +32,7 @@ public class AdminDashboard extends AppCompatActivity implements View.OnClickLis
 
         switch (v.getId()) {
             case R.id.AdregDoc_id:
-                i = new Intent(this, ConsultationPage.class);
+                i = new Intent(this, RegisterDoctor.class);
                 startActivity(i);
                 break;
             case R.id.AdviewAppoint_id:

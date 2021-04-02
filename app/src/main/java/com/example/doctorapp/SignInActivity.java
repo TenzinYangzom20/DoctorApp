@@ -36,6 +36,7 @@ public class SignInActivity extends AppCompatActivity {
         mTextView = findViewById(R.id.textView2);
 
         mAuth = FirebaseAuth.getInstance();
+
         mTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,9 +56,14 @@ public class SignInActivity extends AppCompatActivity {
 
         if (!email.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()){
             if (!pass.isEmpty()){
+
                 if(mEmail.getText().toString().equals("admin@gmail.com") && mPass.getText().toString().equals("admin")){
                     startActivity(new Intent(SignInActivity.this , AdminDashboard.class));
-                }else {
+                }
+                else if(mEmail.getText().toString().equals("doctor@gmail.com") && mPass.getText().toString().equals("doctor")){
+                    startActivity(new Intent(SignInActivity.this , DoctorDashboard.class));
+                }
+                else {
 
                     mAuth.signInWithEmailAndPassword(email, pass)
                             .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
